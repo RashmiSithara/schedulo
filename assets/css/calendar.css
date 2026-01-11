@@ -1,0 +1,42 @@
+.calendar-card {
+  border-radius: 12px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.date {
+  padding: 25px 0;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.date:hover {
+  background: #f3e8ff;
+}
+
+.date.active {
+  background: #6a0dad;
+  color: #fff;
+  font-weight: 600;
+}
+
+.date.muted {
+  color: #ccc;
+}
+
+.task-day-card {
+  border-radius: 12px;
+}
+
+.task-item h6 {
+  font-size: 14px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

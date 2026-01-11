@@ -1,2 +1,2 @@
-# schedulo
-A Responsive Web-Based Study Planner for University Undergraduates
+# shedulo-acadamic-task-manager
+
