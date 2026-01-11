@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home | Schedulo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="d-flex">
+      <aside class="sidebar">
+        <div class="logo">Schedulo</div>
+
+        <nav class="menu">
+          <a href="/pages/home/">
+            <span class="iconify me-3 fs-3" data-icon="mdi:home-outline"></span>
+            Home
+          </a>
+
+          <a href="/pages/tasks-management/">
+            <span
+              class="iconify me-3 fs-3"
+              data-icon="material-symbols:task"
+            ></span>
+            Task Management
+          </a>
+
+          <a href="/pages/examinations/">
+            <span
+              class="iconify me-3 fs-3"
+              data-icon="healthicons:i-exam-qualification"
+            ></span>
+            Examinations
+          </a>
+
+          <a href="/pages/calendar/">
+            <span
+              class="iconify me-3 fs-3"
+              data-icon="mdi:calendar-month-outline"
+            ></span>
+            Calendar
+          </a>
+
+          <a href="/pages/events/">
+            <span
+              class="iconify me-3 fs-3"
+              data-icon="material-symbols:event"
+            ></span>
+            Events
+          </a>
+
+          <a href="/pages/field-visits-reports/">
+            <span
+              class="iconify me-3 fs-3"
+              data-icon="mdi:folder-multiple-outline"
+            ></span>
+            Field visits & Reports
+          </a>
+
+          <a class="active" href="/pages/settings/">
+            <span class="iconify me-3 fs-3" data-icon="mdi:cog-outline"></span>
+            Settings
+          </a>
+
+          <a class="logout">
+            <span class="iconify me-3 fs-3" data-icon="mdi:logout"></span>
+            Logout
+          </a>
+        </nav>
+      </aside>
+
+      <main class="main-content">
+        <div class="topbar">
+          <div>
+            <span
+              class="iconify fs-3 text-purple"
+              data-icon="mdi:magnify"
+            ></span>
+            <input class="search" placeholder="Find Something" />
+          </div>
+          <h6 class="fs-5 fw-bold">ACADEMIC TASK MANEGER</h6>
+          <div class="d-flex align-items-center gap-3">
+            <div class="d-flex flex-column align-items-end">
+              <span>UserX</span>
+              <small>Student</small>
+            </div>
+            <div
+              class="bg-purple rounded d-flex align-items-center justify-content-center"
+            >
+              <span
+                class="iconify fs-2"
+                data-icon="mdi:account-circle-outline"
+              ></span>
+            </div>
+          </div>
+        </div>
+
+        <section class="daily-status mx-4"></section>
+      </main>
+    </div>
+  </body>
+</html>

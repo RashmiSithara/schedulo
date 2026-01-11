@@ -1,0 +1,172 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f6f6f6;
+}
+a {
+  color: inherit;
+}
+
+.sidebar {
+  width: 300px;
+  background: linear-gradient(#2b0040, #4b0066);
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.menu a {
+  list-style: none;
+  text-decoration: none;
+  display: block;
+  padding: 10px 14px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.menu a .iconify {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.text-purple {
+  color: #6f42c1;
+  /* color: #3f3f3f; */
+}
+.text-gray {
+  /* color: #6f42c1; */
+  color: #3f3f3f;
+}
+
+.line-purple {
+  width: 100px;
+  height: 2px;
+  background-color: #6f42c1;
+}
+
+.line-gray {
+  width: 100px;
+  height: 1px;
+  background-color: #686868;
+}
+
+.menu a.active,
+.menu a:hover {
+  background: #a259d9;
+  color: aliceblue;
+}
+
+.logout {
+  margin-top: 40px;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.topbar {
+  display: flex;
+  color: #6a0dad;
+  align-items: center;
+  justify-content: space-between;
+  background: #eee2f2;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+
+.search {
+  border: none;
+  background: transparent;
+  outline: none;
+  border-bottom: 2px solid #a259d9;
+  width: 200px;
+}
+
+.user {
+  text-align: right;
+}
+
+.daily-status h6 {
+  margin-top: 20px;
+}
+.status-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  height: 100%;
+}
+.common-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.status-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #555;
+  font-size: 14px;
+}
+
+.status-card .iconify {
+  font-size: 50px;
+  color: #6a0dad;
+}
+
+.status-card h5 {
+  margin-top: 12px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.box {
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.task-list button {
+  background: #6a0dad;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+.btn-purple {
+  background: #6a0dad;
+  color: white;
+  width: 100%;
+}
+
+.purple {
+  color: #6a0dad;
+}

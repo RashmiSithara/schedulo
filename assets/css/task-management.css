@@ -1,0 +1,54 @@
+
+.task-progress-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.task-progress-bar {
+  height: 18px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.task-progress-bar .fill {
+  height: 100%;
+  width: 80%;
+  background: #35e000;
+  border-radius: 10px;
+}
+
+.filter-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.filter-select {
+  width: 160px;
+  border-radius: 20px;
+}
+
+.task-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  height: 100%;
+}
+
+.task-card h6 {
+  font-weight: 700;
+}
+
+.task-card p {
+  font-size: 13px;
+  color: #555;
+}
+
+.icon-green { color: #1dbf73; }
+.icon-yellow { color: #fbbc05; }
+.icon-red { color: #e53935; }
